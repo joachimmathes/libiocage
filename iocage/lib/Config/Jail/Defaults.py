@@ -91,6 +91,8 @@ class JailConfigDefaults(iocage.lib.Config.Jail.BaseConfig.BaseConfig):
         "allow_mount_procfs": 0,
         "allow_mount_zfs": 0,
         "allow_mount_tmpfs": 0,
+        "allow_usb": 0,
+        "usb_device": ["ugen*"],
         "allow_quotas": 0,
         "allow_socket_af": 0,
         "sysvmsg": "new",
